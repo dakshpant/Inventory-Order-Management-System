@@ -1,98 +1,111 @@
-# Deployment
+# 🚀 Deployment & Deliverables
 
-## Live Application
+## 🌐 Live Application
 
-### Frontend (Vercel)
-
-https://inventory-order-management-system-gray.vercel.app/
-
-### Backend API (Railway)
-
-https://inventory-order-management-system-production-4882.up.railway.app/
-
-### API Documentation (Swagger UI)
-
-https://inventory-order-management-system-production-4882.up.railway.app/docs
+| Service                        | URL                                                                           |
+| ------------------------------ | ----------------------------------------------------------------------------- |
+| Frontend (Vercel)              | https://inventory-order-management-system-gray.vercel.app/                    |
+| Backend API (Railway)          | https://inventory-order-management-system-production-4882.up.railway.app/     |
+| API Documentation (Swagger UI) | https://inventory-order-management-system-production-4882.up.railway.app/docs |
 
 ---
 
-# Docker
+## 📦 Docker Hub Images
+
+| Service  | Docker Hub Repository                                 |
+| -------- | ----------------------------------------------------- |
+| Backend  | https://hub.docker.com/r/dakshpant/inventory-backend  |
+| Frontend | https://hub.docker.com/r/dakshpant/inventory-frontend |
+
+---
+
+## 💻 Source Code
+
+GitHub Repository:
+
+https://github.com/dakshpant/Inventory-Order-Management-System
+
+---
+
+# 🐳 Docker Support
 
 The entire application is fully containerized using Docker and Docker Compose.
 
-## Included Docker Configuration
+### Included Configuration
 
-- Backend Dockerfile
-- Frontend Dockerfile
-- Docker Compose Configuration
-- Environment Variable Support
-- PostgreSQL Persistent Volume
-- Multi-Service Container Orchestration
+* Production-ready Backend Dockerfile
+* Frontend Dockerfile
+* Docker Compose Configuration
+* Environment Variable Support
+* PostgreSQL Persistent Storage
+* Multi-Service Container Orchestration
 
-## Run with Docker Compose
+### Run Locally
 
 ```bash
 docker compose up --build
 ```
 
-Stop services:
+### Stop Services
 
 ```bash
 docker compose down
 ```
 
-Services started:
+### Services Started
 
-- Frontend
-- Backend API
-- PostgreSQL Database
+* Frontend
+* Backend API
+* PostgreSQL Database
 
 ---
 
-# Assessment Requirements Coverage
+# ✅ Assessment Requirements Coverage
 
 ## Backend
 
-- FastAPI
-- SQLAlchemy ORM
-- PostgreSQL
-- Request Validation with Pydantic
-- Error Handling
-- RESTful API Design
+* FastAPI
+* SQLAlchemy ORM
+* PostgreSQL Integration
+* Pydantic Request Validation
+* Structured Error Handling
+* RESTful API Design
 
 ## Frontend
 
-- React
-- Axios
-- Responsive UI
-- Form Validation
-- Dashboard Analytics
+* React
+* Axios API Integration
+* Responsive User Interface
+* Form Validation
+* Dashboard Analytics
 
 ## Database
 
-- PostgreSQL
-- Persistent Storage
-- Relational Data Modeling
+* PostgreSQL
+* Persistent Data Storage
+* Relational Data Modeling
 
 ## Containerization
 
-- Docker
-- Docker Compose
-- Production-Ready Dockerfiles
+* Docker
+* Docker Compose
+* Backend Docker Image
+* Frontend Docker Image
+* PostgreSQL Named Volume
 
 ## Deployment
 
-- Frontend deployed on Vercel
-- Backend deployed on Railway
-- Public API Documentation
+* Frontend Deployed on Vercel
+* Backend Deployed on Railway
+* Public API Documentation
+* Public Docker Hub Images
 
 ---
 
-# Deliverables
+# 📋 Submission Deliverables
 
-### Source Code
+### GitHub Repository
 
-GitHub Repository:
 https://github.com/dakshpant/Inventory-Order-Management-System
 
 ### Live Frontend
@@ -107,23 +120,40 @@ https://inventory-order-management-system-production-4882.up.railway.app/
 
 https://inventory-order-management-system-production-4882.up.railway.app/docs
 
-### Docker Support
+### Docker Hub Images
 
-- Backend Dockerfile Included
-- Frontend Dockerfile Included
-- Docker Compose Included
-- PostgreSQL Container Included
+Backend:
+
+https://hub.docker.com/r/dakshpant/inventory-backend
+
+Frontend:
+
+https://hub.docker.com/r/dakshpant/inventory-frontend
 
 ---
 
-# Business Rules Implemented
+# ⚙️ Business Rules Implemented
 
-- Unique Product SKU Validation
-- Unique Customer Email Validation
-- Inventory Quantity Validation
-- Automatic Inventory Deduction on Order Creation
-- Automatic Inventory Restoration on Order Cancellation
-- Backend Calculated Order Totals
-- Request Validation
-- Proper HTTP Status Codes
-- Structured Error Responses
+* Unique Product SKU Validation
+* Unique Customer Email Validation
+* Inventory Quantity Validation
+* Inventory Sufficiency Checks Before Order Creation
+* Automatic Inventory Deduction on Order Creation
+* Automatic Inventory Restoration on Order Cancellation
+* Backend Calculated Order Totals
+* Request Validation Using Pydantic
+* Proper HTTP Status Codes
+* Structured Error Responses
+
+---
+
+# 🎯 Project Highlights
+
+* Full-Stack Inventory & Order Management System
+* React + FastAPI + PostgreSQL Architecture
+* Fully Dockerized Application
+* Docker Compose Multi-Service Setup
+* Public Cloud Deployment (Vercel + Railway)
+* Swagger API Documentation
+* Production-Ready Environment Configuration
+* Persistent PostgreSQL Storage
