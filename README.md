@@ -10,6 +10,63 @@
 
 ---
 
+# 📸 Screenshots
+
+## Dashboard
+
+![Dashboard]![alt text](./misc_assets/image.png)
+
+Displays key business metrics including:
+
+- Total Products
+- Total Customers
+- Total Orders
+- Revenue Generated
+- Low Stock Products
+
+---
+
+## Product Management
+
+![Products](./misc_assets/image-1.png)
+
+Features:
+
+- Add Products
+- Update Products
+- Delete Products
+- Inventory Tracking
+- SKU Validation
+
+---
+
+## Customer Management
+
+![Customers](./misc_assets/image-2.png)
+
+Features:
+
+- Create Customers
+- View Customer List
+- Delete Customers
+- Unique Email Validation
+
+---
+
+## Order Management
+
+![Orders](./misc_assets/image-3.png)
+
+Features:
+
+- Create Orders
+- View Order History
+- Inventory Validation
+- Automatic Stock Deduction
+- Backend Calculated Totals
+
+---
+
 ## 📦 Docker Hub Images
 
 | Service  | Docker Hub Repository                                 |
@@ -33,12 +90,12 @@ The entire application is fully containerized using Docker and Docker Compose.
 
 ### Included Configuration
 
-* Production-ready Backend Dockerfile
-* Frontend Dockerfile
-* Docker Compose Configuration
-* Environment Variable Support
-* PostgreSQL Persistent Storage
-* Multi-Service Container Orchestration
+- Production-ready Backend Dockerfile
+- Frontend Dockerfile
+- Docker Compose Configuration
+- Environment Variable Support
+- PostgreSQL Persistent Storage
+- Multi-Service Container Orchestration
 
 ### Run Locally
 
@@ -54,9 +111,9 @@ docker compose down
 
 ### Services Started
 
-* Frontend
-* Backend API
-* PostgreSQL Database
+- Frontend
+- Backend API
+- PostgreSQL Database
 
 ---
 
@@ -64,41 +121,41 @@ docker compose down
 
 ## Backend
 
-* FastAPI
-* SQLAlchemy ORM
-* PostgreSQL Integration
-* Pydantic Request Validation
-* Structured Error Handling
-* RESTful API Design
+- FastAPI
+- SQLAlchemy ORM
+- PostgreSQL Integration
+- Pydantic Request Validation
+- Structured Error Handling
+- RESTful API Design
 
 ## Frontend
 
-* React
-* Axios API Integration
-* Responsive User Interface
-* Form Validation
-* Dashboard Analytics
+- React
+- Axios API Integration
+- Responsive User Interface
+- Form Validation
+- Dashboard Analytics
 
 ## Database
 
-* PostgreSQL
-* Persistent Data Storage
-* Relational Data Modeling
+- PostgreSQL
+- Persistent Data Storage
+- Relational Data Modeling
 
 ## Containerization
 
-* Docker
-* Docker Compose
-* Backend Docker Image
-* Frontend Docker Image
-* PostgreSQL Named Volume
+- Docker
+- Docker Compose
+- Backend Docker Image
+- Frontend Docker Image
+- PostgreSQL Named Volume
 
 ## Deployment
 
-* Frontend Deployed on Vercel
-* Backend Deployed on Railway
-* Public API Documentation
-* Public Docker Hub Images
+- Frontend Deployed on Vercel
+- Backend Deployed on Railway
+- Public API Documentation
+- Public Docker Hub Images
 
 ---
 
@@ -134,26 +191,26 @@ https://hub.docker.com/r/dakshpant/inventory-frontend
 
 # ⚙️ Business Rules Implemented
 
-* Unique Product SKU Validation
-* Unique Customer Email Validation
-* Inventory Quantity Validation
-* Inventory Sufficiency Checks Before Order Creation
-* Automatic Inventory Deduction on Order Creation
-* Automatic Inventory Restoration on Order Cancellation
-* Backend Calculated Order Totals
-* Request Validation Using Pydantic
-* Proper HTTP Status Codes
-* Structured Error Responses
+- Unique Product SKU Validation
+- Unique Customer Email Validation
+- Inventory Quantity Validation
+- Inventory Sufficiency Checks Before Order Creation
+- Automatic Inventory Deduction on Order Creation
+- Automatic Inventory Restoration on Order Cancellation
+- Backend Calculated Order Totals
+- Request Validation Using Pydantic
+- Proper HTTP Status Codes
+- Structured Error Responses
 
 ---
 
 # 🎯 Project Highlights
 
-* Full-Stack Inventory & Order Management System
-* React + FastAPI + PostgreSQL Architecture
-* Fully Dockerized Application
-* Docker Compose Multi-Service Setup
-* Public Cloud Deployment (Vercel + Railway)
-* Swagger API Documentation
-* Production-Ready Environment Configuration
-* Persistent PostgreSQL Storage
+- Full-Stack Inventory & Order Management System
+- React + FastAPI + PostgreSQL Architecture
+- Fully Dockerized Application
+- Docker Compose Multi-Service Setup
+- Public Cloud Deployment (Vercel + Railway)
+- Swagger API Documentation
+- Production-Ready Environment Configuration
+- Persistent PostgreSQL Storage
