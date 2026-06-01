@@ -1,0 +1,6 @@
+{
+  "name": "Inventory & Order Management",
+  "description": "A comprehensive frontend interface for managing products, customers, orders, and real-time inventory tracking.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
