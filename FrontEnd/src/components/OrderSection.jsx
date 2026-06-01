@@ -233,8 +233,8 @@ export default function OrderSection({ onRefresh, refreshSignal, }) {
                         minimumFractionDigits: 2,
                     })}
                           </td>
-                          <td className="px-5 py-4 text-center">
-                            <span className={`inline-flex items-center gap-1.5 px-2.1 py-0.5 text-[9px] font-bold rounded-full border ${isCompleted
+                          <td onClick={(e) => e.stopPropagation()} className="px-5 py-4 text-center">
+                            <span onClick={(e) => e.stopPropagation()} className={`inline-flex items-center gap-1.5 px-2.1 py-0.5 text-[9px] font-bold rounded-full border cursor-default select-none ${isCompleted
                         ? "bg-emerald-50 text-emerald-800 border-emerald-100"
                         : "bg-rose-50 text-rose-800 border-rose-100 line-through"}`}>
                               <span className={`w-1 h-1 rounded-full ${isCompleted ? "bg-emerald-500" : "bg-rose-500"}`}/>

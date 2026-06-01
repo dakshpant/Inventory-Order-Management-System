@@ -1,6 +1,5 @@
 import { api } from "./api";
 api.interceptors.request.use((config) => {
-    console.log(`[API] ${config.method?.toUpperCase()} ${config.url}`);
     return config;
 }, (error) => Promise.reject(error));
 api.interceptors.response.use((response) => response, (error) => {

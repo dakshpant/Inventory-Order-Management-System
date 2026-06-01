@@ -31,6 +31,9 @@ export default function CustomerSection({ onRefresh, refreshSignal, }) {
         setPhone("");
         setIsModalOpen(true);
     };
+    const handlePhoneChange = (value) => {
+        setPhone(value.replace(/\D/g, ""));
+    };
     const handleSubmit = async (e) => {
         e.preventDefault();
         setError("");
@@ -226,7 +229,11 @@ export default function CustomerSection({ onRefresh, refreshSignal, }) {
                 <label className="font-semibold text-slate-600 uppercase tracking-tight">
                   Phone Number
                 </label>
-                <input type="tel" placeholder="e.g. 555-0100" value={phone} onChange={(e) => setPhone(e.target.value)} className="w-full px-3 py-2 border border-slate-200 rounded-lg focus:outline-none focus:border-blue-500 font-mono"/>
+                <input type="tel" inputMode="numeric" pattern="[0-9]*" placeholder="e.g. 5550100" value={phone} onKeyDown={(e) => {
+                if (e.key.length === 1 && !/\d/.test(e.key)) {
+                    e.preventDefault();
+                }
+            }} onChange={(e) => handlePhoneChange(e.target.value)} className="w-full px-3 py-2 border border-slate-200 rounded-lg focus:outline-none focus:border-blue-500 font-mono"/>
               </div>
 
               <div className="flex items-center gap-2 pt-3 border-t border-slate-100">
