@@ -1,3 +1,14 @@
+![React](https://img.shields.io/badge/React-19-blue)
+![FastAPI](https://img.shields.io/badge/FastAPI-Backend-green)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-Database-blue)
+![Docker](https://img.shields.io/badge/Docker-Containerized-blue)
+![Vercel](https://img.shields.io/badge/Vercel-Deployed-black)
+![Railway](https://img.shields.io/badge/Railway-Deployed-purple)
+
+A production-ready Inventory & Order Management System built with React, FastAPI, PostgreSQL, Docker, and Docker Compose.
+
+Features include product management, customer management, order processing, inventory tracking, automatic stock deduction, and public cloud deployment using Vercel and Railway.
+
 # 🚀 Deployment & Deliverables
 
 ## 🌐 Live Application
