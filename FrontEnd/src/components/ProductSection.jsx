@@ -243,7 +243,7 @@ export default function ProductSection({ onRefresh, refreshSignal, }) {
         </div>
         <div className="bg-slate-50 border-t border-slate-100 px-5 py-3 text-[10px] text-slate-400 font-mono flex items-center justify-between">
           <span>Active Registry Rows: {filteredProducts.length} entries</span>
-          <span>Catalog Storage Engine: FastAPI + PostgreSQL</span>
+          {/* <span>Catalog Storage Engine: FastAPI + PostgreSQL</span> */}
         </div>
       </div>
 
