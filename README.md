@@ -4,7 +4,7 @@
 
 ### Frontend (Vercel)
 
-https://inventory-order-management-system-r.vercel.app/
+https://inventory-order-management-system-gray.vercel.app/
 
 ### Backend API (Railway)
 
@@ -97,7 +97,7 @@ https://github.com/dakshpant/Inventory-Order-Management-System
 
 ### Live Frontend
 
-https://inventory-order-management-system-r.vercel.app/
+https://inventory-order-management-system-gray.vercel.app/
 
 ### Live Backend API
 
